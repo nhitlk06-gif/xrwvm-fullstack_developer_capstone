@@ -1,4 +1,9 @@
 {
-  "esversion": 8,
-  "node": true
+  "esversion": 11,
+  "node": true,
+  "asi": true,
+  "laxbreak": true,
+  "sub": true,
+  "undef": false,
+  "unused": false
 }

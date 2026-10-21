@@ -40,5 +40,5 @@ jobs:
         run: npm install -g jshint
       - name: Run JavaScript linter
         run: |
-          jshint server/database/
+          jshint --config server/database/.jshintrc server/database/*.js
           echo "JavaScript linting completed successfully"

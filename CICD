@@ -1,0 +1,64 @@
+Lint Python files
+succeeded 2m ago in 24s
+
+Set up job
+0s
+Run actions/checkout@v4
+Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
+Getting Git version info
+Temporarily overriding HOME='/home/runner/work/_temp/8cdff01c-027b-4e84-b497-b36882e9ff48' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+Checking out the ref
+0s
+Run actions/setup-python@v5
+Installed versions
+2s
+Run pip install flake8
+Collecting flake8
+  Downloading flake8-7.4.1-py2.py3-none-any.whl (57 kB)
+Collecting mccabe<0.8.0,>=0.7.0 (from flake8)
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting pycodestyle<2.16.0,>=2.15.0 (from flake8)
+  Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+Collecting pyflakes<4.1.0,>=4.0.0 (from flake8)
+  Downloading pyflakes-4.0.3-py2.py3-none-any.whl (66 kB)
+Installing collected packages: pyflakes, pycodestyle, mccabe, flake8
+Successfully installed flake8-7.4.1 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.0.3
+3s
+Run flake8 --version
+7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.3 on Linux
+0s
+Run flake8 server --count --show-source --statistics
+0
+Python linting completed successfully
+0s
+Post job cleanup.
+Complete job name: Lint Python files
+
+
+Lint JavaScript files
+succeeded 2m ago in 12s
+
+Set up job
+0s
+Run actions/checkout@v4
+Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
+Getting Git version info
+Adding repository directory to the temporary git global config as a safe directory
+Checking out the ref
+0s
+Run actions/setup-node@v4
+Attempting to download 18...
+Acquiring 18.20.4 - x64 from https://github.com/actions/node-versions/releases/download/18.20.4-8395289947/node-18.20.4-linux-x64.tar.gz
+Extracting ...
+Adding to the cache ...
+2s
+Run npm install -g jshint
+added 31 packages in 1s
+1s
+Run jshint server/database/
+JavaScript linting completed successfully
+0s
+Post job cleanup.
+Complete job name: Lint JavaScript files

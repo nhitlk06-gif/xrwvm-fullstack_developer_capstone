@@ -18,5 +18,10 @@ class CarMakeAdmin(admin.ModelAdmin):
     inlines = [CarModelInline]
 
 
+admin.site.site_header = "Best Cars Administration"
+admin.site.site_title = "Best Cars Admin Portal"
+admin.site.index_title = "Welcome to Best Cars Administration"
+
 admin.site.register(CarMake, CarMakeAdmin)
 admin.site.register(CarModel, CarModelAdmin)
+

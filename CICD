@@ -1,32 +1,39 @@
 Run 'Lint Code' - nhitlk06-gif/xrwvm-fullstack_developer_capstone
 Workflow: Lint Code (main.yml)
+Run ID: 39646371022
 Status: Completed Success
 
-Job: Lint Python files (success in 18s)
-- Set up job (0s)
-- Run actions/checkout@v4 (1s)
-  Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
-- Run actions/setup-python@v5 (2s)
-  Installed versions: Python 3.12.15
-- Run pip install flake8 (4s)
-  Successfully installed flake8-7.4.1 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.0.3
-- Run flake8 --version (0s)
-  7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.15 on Linux
-- Run flake8 server --count --show-source --statistics (1s)
-  0
-  Python linting completed successfully
-- Post job cleanup (0s)
-Complete job name: Lint Python files (Success)
+Job: Lint Python files
+Job ID: 119382899547
+Status: Success (completed in 18s)
+  ✓ Set up job (0s)
+  ✓ Run actions/checkout@v4 (1s)
+    Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
+  ✓ Run actions/setup-python@v5 (2s)
+    Installed versions: Python 3.12.15
+  ✓ Run pip install flake8 (4s)
+    Successfully installed flake8-7.4.1 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.0.3
+  ✓ Run flake8 --version (0s)
+    7.4.1 (mccabe: 0.7.0, pycodestyle: 2.15.0, pyflakes: 4.0.3) CPython 3.12.15 on Linux
+  ✓ Run flake8 server --count --show-source --statistics (1s)
+    0
+    Python linting completed successfully
+  ✓ Post Set up Python (0s)
+  ✓ Post Checkout code (0s)
+  ✓ Complete job: Lint Python files (Success)
 
-Job: Lint JavaScript files (success in 12s)
-- Set up job (0s)
-- Run actions/checkout@v4 (1s)
-  Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
-- Run actions/setup-node@v4 (2s)
-  Acquiring 18.20.4 - x64 from https://github.com/actions/node-versions/
-- Run npm install -g jshint (3s)
-  added 31 packages in 1s
-- Run jshint --config server/database/.jshintrc server/database/*.js (1s)
-  JavaScript linting completed successfully
-- Post job cleanup (0s)
-Complete job name: Lint JavaScript files (Success)
+Job: Lint JavaScript files
+Job ID: 119382899961
+Status: Success (completed in 12s)
+  ✓ Set up job (0s)
+  ✓ Run actions/checkout@v4 (1s)
+    Syncing repository: nhitlk06-gif/xrwvm-fullstack_developer_capstone
+  ✓ Run actions/setup-node@v4 (2s)
+    Acquiring 18.20.4 - x64 from https://github.com/actions/node-versions/
+  ✓ Run npm install -g jshint (3s)
+    added 31 packages in 1s
+  ✓ Run jshint --config server/database/.jshintrc server/database/*.js (1s)
+    JavaScript linting completed successfully
+  ✓ Post Install Node.js (0s)
+  ✓ Post Checkout code (0s)
+  ✓ Complete job: Lint JavaScript files (Success)
